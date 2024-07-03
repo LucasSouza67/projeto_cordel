@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --corBack: black;
+    --corBack2: white;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--corBack2);
+}
+
+header, footer{
+    background-color: var(--corBack);
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+}
+
+header > p > a{
+    color: white;
+    text-decoration: none;
+}
